@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function Main() {
   return (
-    <div className="flex justify-center items-center gap-x-2 h-screen font-serif-Times New Roman border-8">
+    <div className="flex justify-center items-center gap-x-12 h-full font-serif-Times New Roman bg-gray-100">
       <LoginTag />
       <Card />
     </div>
