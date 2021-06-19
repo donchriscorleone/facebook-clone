@@ -63,7 +63,7 @@ const Card = () => {
             >
               Log In
             </button>
-            <a href="#" className="my-3 text-blue">
+            <a href="#" className="my-3 text-blue hover:underline">
               Forgot Password?
             </a>
           </div>
