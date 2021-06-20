@@ -38,16 +38,14 @@ const page = [
 
 const Pages = () => {
   return (
-    <div className="">
-      <ul className="flex text-xs justify-center">
-        {page.map((p, index) => {
-          return (
-            <li key={index} className="inline mx-1 hover:underline">
-              <a href="#">{p}</a>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="my-3 w-1/2 h-1/2 text-xs mx-auto">
+      {page.map((p, index) => {
+        return (
+          <span key={index} className="mr-2 hover:underline">
+            <a href="#">{p}</a>
+          </span>
+        );
+      })}
     </div>
   );
 };
